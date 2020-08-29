@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_a_d_c_filter.html#aca79719fbb15a2c4728c69657c2d38c3"><param name="Name" value="adcAverage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_a_d_c_filter.html"><param name="Name" value="ADCFilter"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8c.html"><param name="Name" value="ADCFilter.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8c.html#a8ca0c1e191fb21f937269d11068ff12f"><param name="Name" value="ADCFilter_Init"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8c.html#a76150ac8e713c37230961488c9cda4a0"><param name="Name" value="ADCFilter.c"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8h.html"><param name="Name" value="ADCFilter.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8h.html#ae9315b10be35c1424ec4c4355251e96b"><param name="Name" value="ADCFilter"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8h.html"><param name="Name" value="ADCFilter.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8h.html#a8ca0c1e191fb21f937269d11068ff12f"><param name="Name" value="ADCFilter_Init"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8h.html#ab241c4c99750b809a59f926418358745"><param name="Name" value="ADCFilter.h"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_a_d_c_filter.html"><param name="Name" value="ADCFilter"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_a_d_c_filter.html#aca79719fbb15a2c4728c69657c2d38c3"><param name="Name" value="adcAverage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8h.html#ae9315b10be35c1424ec4c4355251e96b"><param name="Name" value="ADCFilter"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8h.html#ae9315b10be35c1424ec4c4355251e96b"><param name="Name" value="ADCFilter.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_a_d_c_filter.html#ae4138f8465438ecd9656ff8e5268ad05"><param name="Name" value="ADCFilter"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8c.html#a8ca0c1e191fb21f937269d11068ff12f"><param name="Name" value="ADCFilter_Init"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8c.html#a8ca0c1e191fb21f937269d11068ff12f"><param name="Name" value="ADCFilter.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8h.html#a8ca0c1e191fb21f937269d11068ff12f"><param name="Name" value="ADCFilter_Init"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8c.html#a76150ac8e713c37230961488c9cda4a0"><param name="Name" value="ADCFilter_ReadAverage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8c.html#a76150ac8e713c37230961488c9cda4a0"><param name="Name" value="ADCFilter.c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_a_d_c_filter_8h.html#ab241c4c99750b809a59f926418358745"><param name="Name" value="ADCFilter_ReadAverage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_a_d_c_filter.html#ae4138f8465438ecd9656ff8e5268ad05"><param name="Name" value="filterFactorLevel"></OBJECT>
+</UL>
+</BODY>
+</HTML>

@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ADCFilter"><param name="Local" value="struct_a_d_c_filter.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="adcAverage"><param name="Local" value="struct_a_d_c_filter.html#aca79719fbb15a2c4728c69657c2d38c3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="filterFactorLevel"><param name="Local" value="struct_a_d_c_filter.html#ae4138f8465438ecd9656ff8e5268ad05"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structure Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Fields"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Variables"><param name="Local" value="functions_vars.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="D:"><param name="Local" value="dir_275089585c7fc1b5fd5d7d42c69cb1da.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Documents"><param name="Local" value="dir_63a46bc882553fb0fda9819bea5fa400.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Electronic"><param name="Local" value="dir_b3e52ffe128082baf793ed67ba7f7766.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Projects"><param name="Local" value="dir_7851aa23fbd6516403250f505b789125.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Library"><param name="Local" value="dir_aa431a1e7fc2914fc334b17ac2cbbeaf.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="EmbeddedLibraries"><param name="Local" value="dir_a72a4fe2f936925a3db11fc8f7a23991.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="ADCFilter"><param name="Local" value="dir_8e0d8f6784fbc9f273e78be88341e490.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="ADCFilter.c"><param name="Local" value="_a_d_c_filter_8c.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="ADCFilter_Init"><param name="Local" value="_a_d_c_filter_8c.html#a8ca0c1e191fb21f937269d11068ff12f"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="ADCFilter_ReadAverage"><param name="Local" value="_a_d_c_filter_8c.html#a76150ac8e713c37230961488c9cda4a0"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="ADCFilter.h"><param name="Local" value="_a_d_c_filter_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="ADCFilter"><param name="Local" value="struct_a_d_c_filter.html"><param name="ImageNumber" value="1"></OBJECT>
+                      <UL>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="adcAverage"><param name="Local" value="struct_a_d_c_filter.html#aca79719fbb15a2c4728c69657c2d38c3"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="filterFactorLevel"><param name="Local" value="struct_a_d_c_filter.html#ae4138f8465438ecd9656ff8e5268ad05"><param name="ImageNumber" value="11"></OBJECT>
+                      </UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="ADCFilter"><param name="Local" value="_a_d_c_filter_8h.html#ae9315b10be35c1424ec4c4355251e96b"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="ADCFilter_Init"><param name="Local" value="_a_d_c_filter_8h.html#a8ca0c1e191fb21f937269d11068ff12f"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="ADCFilter_ReadAverage"><param name="Local" value="_a_d_c_filter_8h.html#ab241c4c99750b809a59f926418358745"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                </UL>
+              </UL>
+            </UL>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Globals"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="globals_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Typedefs"><param name="Local" value="globals_type.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>
