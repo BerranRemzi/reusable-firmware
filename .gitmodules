@@ -1,0 +1,12 @@
+[submodule "hal/SoftSPI"]
+	path = hal/SoftSPI
+	url = ../SoftSPI
+[submodule "api/AnalogButton"]
+	path = api/AnalogButton
+	url = ../AnalogButton
+[submodule "api/xOS"]
+	path = api/xOS
+	url = ../xOS
+[submodule "api/DS18B20"]
+	path = api/DS18B20
+	url = ../DS18B20
