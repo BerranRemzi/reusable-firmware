@@ -23,7 +23,7 @@
 		uint8_t filter_factor_level;
 		///This will hold the themporary value for averaging
 		uint32_t adc_average;
-	} FilterEMA_t;
+	} FilterSMA_t;
 
 #ifdef __cplusplus  // Provide C++ Compatibility
 
@@ -38,7 +38,7 @@
 	 * @param _filter_factor_level Value for averaging level of ADC filter
 	 * @date 18.02.2019
 	 */
-	void FilterEMA_Init(FilterEMA_t * _input, uint8_t _filter_factor_level);
+	void FilterSMA_Init(FilterSMA_t * _input, uint8_t _filter_factor_level);
 
 
 	/**
@@ -72,9 +72,9 @@
 	 * @author Berran Remzi.
 	 * @date 18.02.2019
 	 */
-	uint32_t FilterEMA_Read(const FilterEMA_t *_input);
+	uint32_t FilterSMA_GetValue(const FilterSMA_t *_input);
 
-	void FilterEMA_AddSample(FilterEMA_t* _input, uint16_t _new_sample);
+	void FilterSMA_AddSample(FilterSMA_t* _input, uint16_t _new_sample);
 
 #ifdef __cplusplus  // Provide C++ Compatibility
 

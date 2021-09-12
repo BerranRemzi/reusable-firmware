@@ -7,16 +7,10 @@
  *
  * @date 18.02.2019
  */
-#ifndef ADC_FILTER_H
-#define ADC_FILTER_H
+#ifndef FILTER_RMS_H
+#define FILTER_RMS_H
 
 #include <stdint.h>
-
-#ifdef __cplusplus  // Provide C++ Compatibility
-
-extern "C" {
-
-#endif
 
 #define MAX_FILTER_LEVEL 20
 #define MAX_PRECISION 100
@@ -24,16 +18,20 @@ extern "C" {
 	/**
 	  Section: Global Variables Definitions
 	 */
-	typedef struct Filter {
+	typedef struct {
 		///This will hold the passed filter factor level value
 		uint8_t filter_factor_level;
 		///This will hold the themporary value for averaging
 		uint32_t adc_average;	
 
 		uint32_t sum_squares;
-	} Filter;
+	} FilterRMS_t;
 
+#ifdef __cplusplus  // Provide C++ Compatibility
 
+	extern "C" {
+
+#endif
 	/**
 	 * This method will be used for initialize ADCFiler module.
 	 * @author Berran Remzi
@@ -41,7 +39,7 @@ extern "C" {
 	 * @param _filter_factor_level Value for averaging level of ADC filter
 	 * @date 18.02.2019
 	 */
-	void Filter_Init(Filter * _input, uint8_t _filter_factor_level);
+	void FilterRMS_Init(FilterRMS_t * _input, uint8_t _filter_factor_level);
 
 
 	/**
@@ -75,9 +73,9 @@ extern "C" {
 	 * @author Berran Remzi.
 	 * @date 18.02.2019
 	 */
-	uint32_t Filter_Read(Filter *_input);
+	uint32_t FilterRMS_GetValue(const FilterRMS_t *_input);
 
-	void Filter_LoadSample(Filter* _input, uint16_t _new_sample);
+	void FilterRMS_AddSample(FilterRMS_t* _input, uint16_t _new_sample);
 
 #ifdef __cplusplus  // Provide C++ Compatibility
 
@@ -85,7 +83,7 @@ extern "C" {
 
 #endif
 
-#endif // ADC_FILTER_H
+#endif // FILTER_RMS_H
 /**
  End of File
  */

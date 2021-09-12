@@ -1,6 +1,6 @@
 #include "pch.h"
-#include "../Filter.h"
-#include "../Filter.c"
+#include "../FilterEMA.h"
+#include "../FilterEMA.c"
 
 Filter adc;
 uint32_t raw = 0;

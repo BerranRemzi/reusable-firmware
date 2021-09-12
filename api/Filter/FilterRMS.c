@@ -1,6 +1,6 @@
 #include "FilterRMS.h"
 
-void Filter_Init(Filter* _input, uint8_t _filter_factor_level) {
+void FilterRMS_Init(FilterRMS_t* _input, uint8_t _filter_factor_level) {
 
     if (_filter_factor_level > MAX_FILTER_LEVEL) {
         _filter_factor_level = MAX_FILTER_LEVEL;
@@ -11,13 +11,13 @@ void Filter_Init(Filter* _input, uint8_t _filter_factor_level) {
     _input->sum_squares = 1;
 }
 
-uint32_t Filter_Read(const Filter* _input) {
+uint32_t FilterRMS_Read(const FilterRMS_t* _input) {
     return (_input->adc_average);
 }
 
 #define INITIAL 50
 
-void Filter_LoadSample(Filter* _input, uint16_t _new_sample) {
+void FilterRMS_AddSample(FilterRMS_t* _input, uint16_t _new_sample) {
 
     _input->sum_squares -= _input->sum_squares >> _input->filter_factor_level;
     _input->sum_squares += _new_sample * _new_sample;

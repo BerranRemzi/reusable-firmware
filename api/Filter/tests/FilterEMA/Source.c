@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <math.h>
-#include "../FilterEMA.h"
+#include "../../FilterEMA.h"
 
 void PrintData(const uint32_t _input[], uint8_t _size);
 void SineWaveFilter(void);
@@ -31,7 +31,7 @@ void PrintData(const uint32_t _input[], uint8_t _size) {
 #define FILTER_FACTOR_LEVEL 8
 #define PRINT_SIZE 1720
 void SineWaveFilter(void) {
-    Filter adc;
+    FilterEMA_t adc;
 
     uint16_t totalTime = 1;
     uint32_t totalCycle = totalTime * 1800;
@@ -39,14 +39,14 @@ void SineWaveFilter(void) {
     uint32_t output = 0;
     uint16_t input;
 
-    Filter_Init(&adc, FILTER_FACTOR_LEVEL);
+    FilterEMA_Init(&adc, FILTER_FACTOR_LEVEL);
     for (uint16_t i = 0; i < totalCycle; i++) {
 
         double absSineValue = sin(i * 3.1415 * 10 / 180);
-        input = abs(absSineValue * 1000.0);
+        input = abs((int32_t)(absSineValue * 1000.0));
 
-        Filter_LoadSample(&adc, input);
-        output = Filter_Read(&adc);
+        FilterEMA_AddSample(&adc, input);
+        output = FilterEMA_Read(&adc);
 
 
         buffer[0] = input;

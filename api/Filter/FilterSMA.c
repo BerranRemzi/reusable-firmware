@@ -1,6 +1,6 @@
-#include "FilterEMA.h"
+#include "FilterSMA.h"
 
-void FilterEMA_Init(FilterEMA_t* _input, uint8_t _filter_factor_level) {
+void FilterSMA_Init(FilterSMA_t* _input, uint8_t _filter_factor_level) {
     if (_filter_factor_level > MAX_FILTER_LEVEL) {
         _filter_factor_level = MAX_FILTER_LEVEL;
     }
@@ -9,11 +9,11 @@ void FilterEMA_Init(FilterEMA_t* _input, uint8_t _filter_factor_level) {
     _input->adc_average = 1;
 }
 
-uint32_t FilterEMA_Read(const FilterEMA_t* _input) {
+uint32_t FilterSMA_GetValue(const FilterSMA_t* _input) {
     return (_input->adc_average >> _input->filter_factor_level);
 }
 
-void FilterEMA_AddSample(FilterEMA_t* _input, uint16_t _new_sample) {
+void FilterSMA_AddSample(FilterSMA_t* _input, uint16_t _new_sample) {
     _input->adc_average -= _input->adc_average >> _input->filter_factor_level;
     _input->adc_average += _new_sample;
 }
