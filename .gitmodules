@@ -10,3 +10,6 @@
 [submodule "api/DS18B20"]
 	path = api/DS18B20
 	url = ../DS18B20
+[submodule "arduino/dual-function-button"]
+	path = arduino/dual-function-button
+	url = ../dual-function-button
